@@ -95,4 +95,13 @@ python main.py
 
 **Manisha**
 
+
 Developed as part of the **CodeAlpha Machine Learning Internship**.
+
+## Dataset
+
+This project uses the **TESS (Toronto Emotional Speech Set)** dataset.
+
+Due to GitHub file size limitations, the dataset is available on Google Drive.
+https://drive.google.com/drive/folders/1r2KgJvJpkeiCQrK-T3AEYvPIaeTgULXL?usp=sharing
+
