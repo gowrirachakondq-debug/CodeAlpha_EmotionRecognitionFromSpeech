@@ -1,15 +1,98 @@
-# 🎙️ Speech Emotion Recognition
+# 🎙️ Speech Emotion Recognition using CNN
 
-This repository contains **Task 2: Speech Emotion Recognition** completed during the CodeAlpha Machine Learning Internship.
+## 📌 Overview
+This project was developed as part of the **CodeAlpha Machine Learning Internship**.
 
-## 📋 Project Description
-The goal of this project is to accurately identify and classify human emotions from spoken audio cues. By analyzing various acoustic features extracted from voice samples, the model detects underlying emotional states such as anger, disgust, fear, happiness, neutrality, sadness, and pleasant surprise.
+The system recognizes human emotions from speech audio using **Deep Learning (CNN)** and **MFCC (Mel Frequency Cepstral Coefficients)** features. It is trained on the **TESS (Toronto Emotional Speech Set)** dataset and predicts emotions from `.wav` audio files.
 
-## 📊 Dataset Reference
-* **Dataset Used:** Toronto Emotional Speech Set (TESS)
-* **Note:** Due to the large volume of individual audio clips, the raw data directory is hosted locally and omitted from the repository to optimize storage.
+---
 
-## 🛠️ Main Components
-* `main.py`: The primary interface file to execute the classification pipeline.
-* `train_model.py`: The script handling feature extraction and machine learning model training.
-* `speech_emotion_model.pkl`: The saved, pre-trained classification model.
+## 🚀 Features
+- Speech Emotion Recognition
+- MFCC Feature Extraction using Librosa
+- Convolutional Neural Network (CNN)
+- Automatic dataset loading
+- Model evaluation with Accuracy and Classification Report
+- Predicts emotions from audio files
+- Saves the trained model for future predictions
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- TensorFlow / Keras
+- Librosa
+- NumPy
+- Scikit-learn
+
+---
+
+## 📂 Dataset
+**TESS (Toronto Emotional Speech Set)**
+
+Supported emotions:
+- Angry
+- Happy
+- Sad
+- Fear
+- Disgust
+- Neutral
+- Surprise
+
+---
+
+## 📊 Model Performance
+- **Model:** Convolutional Neural Network (CNN)
+- **Feature Extraction:** MFCC
+- **Accuracy:** **99.91%**
+
+---
+
+## 📁 Project Structure
+
+```
+CodeAlpha_EmotionRecognitionFromSpeech/
+│── data/
+│── train_model.py
+│── main.py
+│── speech_emotion_cnn.keras
+│── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+### Install dependencies
+
+```bash
+pip install tensorflow librosa numpy scikit-learn
+```
+
+### Train the model
+
+```bash
+python train_model.py
+```
+
+### Predict emotion
+
+```bash
+python main.py
+```
+
+---
+
+## 📌 Internship Task
+
+**CodeAlpha Machine Learning Internship**
+
+**Task 2: Speech Emotion Recognition**
+
+---
+
+## 👩‍💻 Author
+
+**Manisha**
+
+Developed as part of the **CodeAlpha Machine Learning Internship**.
